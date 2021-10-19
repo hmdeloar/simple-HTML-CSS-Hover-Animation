@@ -33,3 +33,20 @@
     margin-top: 100px;
 
 }
+
+.magic__Box{
+    background-color: moccasin;
+    width: 150px;
+    height: 150px;
+    transition: width 0.3s;
+    border-bottom: 5px solid mediumspringgreen;
+    box-shadow: 0px 10px 10px #00000054;
+    border-radius: 5px;;
+
+}
+
+
+.out__Box:hover .magic__Box{
+    width: 10px;
+
+}
